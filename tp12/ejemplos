@@ -1,0 +1,43 @@
+# Curso
+c = Curso("Matemáticas", "6to año", "Profe López")
+c.agregar_alumno("Ana")
+c.iniciar_clase()
+c.terminar_trimestre()
+
+# Computadora
+pc = Computadora("Lenovo", 8, estado=False)
+pc.encender()
+pc.instalar_programa("Python")
+
+# Teléfono
+tel = TelefonoMovil(55, "Android", "011-1234-5678")
+tel.enviar_mensaje("011-9999-0000", "Hola, Santi!")
+
+# Profesor
+p = Profesor("María", "Historia", 12)
+p.calificar_trabajo("Juan", 8)
+
+# Canción
+s = Cancion("Imagine", "John Lennon", 183)
+s.reproducir()
+s.pausar()
+
+# Lista de compras
+lc = ListaDeCompras("Semanal")
+lc.agregar_producto("Leche")
+print(lc.ver_productos())
+
+# Estante de libros
+est = EstanteDeLibros(3)
+est.agregar_libro("1984")
+est.prestar_libro("1984")
+
+# Billeteras
+b1 = BilleteraElectronica("Santi", 5000)
+b2 = BilleteraElectronica("Lucia", 2000)
+b1.transferir(1000, b2)
+
+# Historial médico
+hm = HistorialMedico("Carlos", "O+", ["Penicilina"])
+hm.agregar_diagnostico("Hipertensión leve")
+print(hm.mostrar_alergias())
